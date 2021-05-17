@@ -140,16 +140,16 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://houdini-music.herokuapp.com",
-    "https://hw4-react-native.web.app/",
-    "https://hw4-react-native.firebaseapp.com/"
-    "https://houdini-music.herokuapp.com",
-    'http://localhost:3000',
-    'https://localhost:3000',
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://houdini-music.herokuapp.com",
+#     "https://hw4-react-native.web.app/",
+#     "https://hw4-react-native.firebaseapp.com/"
+#     "https://houdini-music.herokuapp.com",
+#     'http://localhost:3000',
+#     'https://localhost:3000',
+# ]
 
-# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = True
 
 #The absolute path to the directory where collectstatic will collect static files for deployment.
 STATIC_ROOT = BASE_DIR 
