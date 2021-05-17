@@ -161,7 +161,9 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
     'username', 
-    'password' 
+    'password', 
+    'song-id',
+    'email'
 ]
 
 #The absolute path to the directory where collectstatic will collect static files for deployment.
