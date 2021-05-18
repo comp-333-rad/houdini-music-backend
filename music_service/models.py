@@ -36,7 +36,7 @@ class SongDetail(models.Model):
     year_of_release = models.IntegerField(default=0)
     name = models.CharField(max_length=255)
     duration = models.IntegerField(default=0)
-    average_rating = models.DecimalField(
+    average_rating = models.DecimalField(blank=True, 
         max_digits=9, decimal_places=2, default=0)
 
     def __str__(self):
